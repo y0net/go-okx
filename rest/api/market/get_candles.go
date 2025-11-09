@@ -14,9 +14,13 @@ type GetCandlesParam struct {
 	api.PagingParam
 	InstId string `url:"instId"`
 	Bar    string `url:"bar,omitempty"`
+	Before string `url:"before,omitempty"`
+	Limit  string `url:"limit,omitempty"`
 }
 
 type GetCandlesResponse struct {
 	api.Response
-	Data [][]string `json:"data"`
+	Code    string     `json:"code"`
+	Message string     `json:"msg"`
+	Data    [][]string `json:"data"`
 }
