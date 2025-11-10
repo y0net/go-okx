@@ -1,4 +1,4 @@
-module github.com/yonet/go-okx
+module github.com/y0net/go-okx
 
 go 1.17
 
