@@ -1,6 +1,6 @@
 package ws
 
-import "github.com/iaping/go-okx/common"
+import "github.com/y0net/go-okx/common"
 
 type Args struct {
 	Channel    string `json:"channel"`

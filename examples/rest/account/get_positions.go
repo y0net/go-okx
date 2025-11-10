@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/iaping/go-okx/examples/rest"
-	"github.com/iaping/go-okx/rest/api/account"
+	"github.com/y0net/go-okx/examples/rest"
+	"github.com/y0net/go-okx/rest/api/account"
 )
 
 func main() {
