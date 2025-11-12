@@ -21,5 +21,5 @@ func (r Response) GetMessage() string {
 }
 
 func (r Response) IsOk() bool {
-	return r.Code == "0"
+	return r.Code == "0" || r.Code == ""
 }
